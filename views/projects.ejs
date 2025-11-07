@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Projects | Joval Mangalan</title>
+  <!-- Loads Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Loads Icons thing -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <%- include('partials/header'); %>
+
+  <main class="container py-5">
+    <h2 class="text-center fw-bold mb-5">My Projects</h2>
+
+    <div class="row g-4">
+      <!-- Healthcare Appointment System -->
+      <div class="col-md-4">
+        <div class="card shadow-sm h-100">
+          <img src="images/healthcare.png" class="card-img-top" alt="Healthcare Appointment System">
+          <div class="card-body">
+            <h5 class="card-title">Healthcare Appointment System</h5>
+            <p class="card-text">
+              A desktop-based system for booking and managing medical appointments.
+              Features patient record handling and doctor scheduling.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- LEGO NXT Robot -->
+      <div class="col-md-4">
+        <div class="card shadow-sm h-100">
+          <img src="images/robot_front.jpg" class="card-img-top" alt="LEGO NXT Robot">
+          <div class="card-body">
+            <h5 class="card-title">LEGO NXT Robot</h5>
+            <p class="card-text">
+              Designed and programmed a LEGO NXT robot using sensors and motors for automated
+              motion and object detection.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Papi Joe's Shawarmaria -->
+      <div class="col-md-4">
+        <div class="card shadow-sm h-100">
+          <img src="images/shawarma.png" class="card-img-top" alt="Papi Joe’s Shawarmaria">
+          <div class="card-body">
+            <h5 class="card-title">Papi Joe’s Shawarmaria</h5>
+            <p class="card-text">
+              A fun Python arcade game built with Pygame where players manage a shawarma shop
+              and fulfill customer orders.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Classic Snake Game -->
+      <div class="col-md-4">
+        <div class="card shadow-sm h-100">
+          <img src="images/snake.png" class="card-img-top" alt="Snake Game">
+          <div class="card-body">
+            <h5 class="card-title">Classic Snake Game</h5>
+            <p class="card-text">
+              A recreation of the retro Snake game built in Python using Pygame.
+              Includes dynamic difficulty and scoring system.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <%- include('partials/footer'); %>
+</body>
+</html>
