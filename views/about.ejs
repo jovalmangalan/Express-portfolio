@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me | Joval Mangalan</title>
+  <!-- Loads Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Loads Icons thing -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="/public/css/style.css">
+</head>
+<body>
+  <%- include('partials/header'); %>
+
+  <main class="container text-center py-5">
+    <h1 class="fw-bold mb-4">About Me</h1>
+
+    <img src="/public/images/profile_image.jpg" 
+         alt="Joval Mangalan Profile Picture"
+         class="rounded-circle shadow-sm mb-4 border border-3 border-light"
+         style="width: 180px; height: 180px; object-fit: cover;">
+
+    <div class="mx-auto" style="max-width: 750px;">
+      <h2 class="fw-semibold mb-3">Hello, I'm Joval Mangalan</h2>
+      <p class="lead">
+        I’m a student who enjoys technology, coding, and building creative projects. Over the years, I’ve
+        worked on games, apps, and other challenges that helped me grow my skills. This portfolio is a
+        collection of my journey as I continue learning more about web development and software.
+      </p>
+    </div>
+  </main>
+
+  <%- include('partials/footer'); %>
+</body>
+</html>
