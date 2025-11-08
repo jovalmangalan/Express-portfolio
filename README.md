@@ -65,19 +65,6 @@ To run the project locally:
 Deployed using [Render](https://render.com).  
 🔗 Live link: *https://express-portfolio-2o0w.onrender.com/* 
 
----
-
-## Featured Projects
-
-| Project | Description | Technologies |
-|----------|--------------|---------------|
-| **Healthcare Appointment System** | A desktop app for booking and managing appointments. | Python, Tkinter |
-| **LEGO NXT Robot** | A LEGO robot built and coded for motion and object detection. | NXT Robotics, Sensors |
-| **Papi Joe’s Shawarmaria** | A fun arcade-style game built in Python with Pygame. | Python, Pygame |
-| **Classic Snake Game** | A recreation of the retro Snake game with a modern look. | Python, Pygame |
-
----
-
 ##  Sources
   
 - The **circular profile image** was styled using the CSS `border-radius` property.  
